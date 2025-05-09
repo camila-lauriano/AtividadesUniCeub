@@ -1,0 +1,10 @@
+Num1 = float(input("Insira o primeiro número: "))
+Num2 = float(input("Insira o segundo número: "))
+
+print(f"{Num1} mais {Num2} = {Num2 + Num1}")
+print(f"{Num1} menos {Num2} = {Num2 - Num1}")
+print(f"{Num1} dividido por {Num2} = {(Num2 / Num1):.2f}")
+print(f"{Num1} vezes {Num2} = {Num2 * Num1}")
+print(f"{Num1} elevado a {Num2} = {Num2 ** Num1}")
+print(f"o resto da divisão entre {Num1} e {Num2} é {Num2 % Num1}")
+print(f"a divisão de inteiros entre {Num1} e {Num2} é {Num2 // Num1}")
